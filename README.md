@@ -21,9 +21,7 @@
 
 ```bash
 cd ~/.dsh/profiles/desktop
-
-# 锁版本安装，不要跟 main
-pnpm add github:MCJF28/dsh-visual-card#v1.0.0
+pnpm add github:MCJF28/dsh-visual-card
 ```
 
 然后把包名加进 profile `package.json` 的 `dsh.profile.bundles`：
@@ -40,7 +38,7 @@ pnpm add github:MCJF28/dsh-visual-card#v1.0.0
 
 重启应用。每个插件都要单独走一次这两步。
 
-> 用 GitHub 地址安装意味着这些包不在 npm 上。可用版本就是各仓库的 tag —— 目前是 `v1.0.0`。
+> 目前从 GitHub 安装，还没有发布到 npm。
 
 ## 共同的取舍
 
@@ -78,9 +76,7 @@ A set of plugins for [DeepSeek Harness](https://github.com/deepseek-ai) Desktop.
 
 ```bash
 cd ~/.dsh/profiles/desktop
-
-# Pin a version rather than following main
-pnpm add github:MCJF28/dsh-visual-card#v1.0.0
+pnpm add github:MCJF28/dsh-visual-card
 ```
 
 Then add the package name to `dsh.profile.bundles` in the profile's `package.json`:
@@ -97,7 +93,7 @@ Then add the package name to `dsh.profile.bundles` in the profile's `package.jso
 
 Restart the app. Each plugin needs this step separately.
 
-> Requiring a GitHub specifier means the package is not on npm. Available versions are the tags in each repository — currently `v1.0.0`.
+> Installed from GitHub for now; not published to npm yet.
 
 ## Common ground
 
