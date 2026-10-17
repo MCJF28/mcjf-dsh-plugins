@@ -17,26 +17,22 @@
 
 ## 安装
 
-**先完全退出应用。** 运行中安装会因为文件被锁而写出残缺的包。
+**推荐用 DSH 内置插件安装程序。** 打开「设置 → 内置插件」，在安装输入框里粘贴下面这一串（就是 `pnpm add` 后面的地址），点安装，再重启应用：
+
+```
+github:MCJF28/dsh-visual-card
+```
+
+安装程序会自动把包写进 `dsh.profile.bundles`，不用手动改任何文件。
+
+习惯命令行的话：先完全退出应用，再在 profile 目录执行
 
 ```bash
 cd ~/.dsh/profiles/desktop
 pnpm add github:MCJF28/dsh-visual-card
 ```
 
-然后把包名加进 profile `package.json` 的 `dsh.profile.bundles`：
-
-```json
-{
-  "dsh": {
-    "profile": {
-      "bundles": ["dsh-visual-card"]
-    }
-  }
-}
-```
-
-重启应用。每个插件都要单独走一次这两步。
+然后把包名加进 `dsh.profile.bundles`，重启应用。
 
 > 目前从 GitHub 安装，还没有发布到 npm。
 
@@ -72,26 +68,22 @@ A set of plugins for [DeepSeek Harness](https://github.com/deepseek-ai) Desktop.
 
 ## Install
 
-**Quit the app first.** Installing while it runs writes a half-finished package, because the files are locked.
+**The built-in plugin installer is the recommended way.** Open Settings → Built-in Plugins, paste the string below into the install box — it is exactly what follows `pnpm add` — then press install and restart the app:
+
+```
+github:MCJF28/dsh-visual-card
+```
+
+The installer writes the package into `dsh.profile.bundles` for you; no manual file edits.
+
+Prefer the command line? Quit the app completely first, then from the profile directory:
 
 ```bash
 cd ~/.dsh/profiles/desktop
 pnpm add github:MCJF28/dsh-visual-card
 ```
 
-Then add the package name to `dsh.profile.bundles` in the profile's `package.json`:
-
-```json
-{
-  "dsh": {
-    "profile": {
-      "bundles": ["dsh-visual-card"]
-    }
-  }
-}
-```
-
-Restart the app. Each plugin needs this step separately.
+Add the package name to `dsh.profile.bundles` yourself and restart the app.
 
 > Installed from GitHub for now; not published to npm yet.
 
