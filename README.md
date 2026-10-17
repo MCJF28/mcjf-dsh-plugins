@@ -4,8 +4,6 @@
 
 **中文** | [English](#english)
 
-[English](./README.md) | 中文
-
 一套用于 [DeepSeek Harness](https://github.com/deepseek-ai) 桌面版的插件。每个独立成仓库、独立安装 —— 只取你需要的即可。
 
 ## 插件一览
@@ -62,8 +60,6 @@ MIT，各仓库内有独立副本。
 <a id="english"></a>
 
 **English** | [中文](#chinese)
-
-English | [中文](./README.zh.md)
 
 A set of plugins for [DeepSeek Harness](https://github.com/deepseek-ai) Desktop. Each lives in its own repository and installs independently — take only the ones you want.
 
