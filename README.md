@@ -13,7 +13,7 @@
 | [dsh-memory-system-prompt](https://github.com/MCJF28/dsh-memory-system-prompt) | 全局记忆（AI 主动写入与读取）+ 用户级系统提示词。索引每轮注入但不占上下文。 |
 | [dsh-web-search-router](https://github.com/MCJF28/dsh-web-search-router) | 按模型通道分流搜索：官方账号走 DeepSeek 官方搜索，其它通道走你的自建服务。失败时给出可读原因，而不是一句 500。 |
 | [dsh-visual-card](https://github.com/MCJF28/dsh-visual-card) | AI 交一段 HTML，在对话里渲染成可交互卡片 —— 能点、能键盘操作、能全屏、能导出。 |
-| [dsh-prompt-enhancer](https://github.com/MCJF28/dsh-prompt-enhancer) | 发送键旁一个按钮，把草稿改写成更好的提示词。三档力度，跟随当前对话的模型。 |
+| [dsh-prompt-enhancer](https://github.com/MCJF28/dsh-prompt-enhancer) | 发送键旁一个按钮，把草稿改写成更好的提示词。三档力度；内置免费模型通道，零配置零费用，不可用时自动回退。 |
 
 ## 安装
 
@@ -64,7 +64,7 @@ A set of plugins for [DeepSeek Harness](https://github.com/deepseek-ai) Desktop.
 | [dsh-memory-system-prompt](https://github.com/MCJF28/dsh-memory-system-prompt) | Global memory the model writes and reads itself, plus a user-level system prompt. The index is injected every turn without consuming context. |
 | [dsh-web-search-router](https://github.com/MCJF28/dsh-web-search-router) | Routes search by model channel: official DeepSeek search on account routes, your own endpoint elsewhere. Readable failure reasons instead of a bare 500. |
 | [dsh-visual-card](https://github.com/MCJF28/dsh-visual-card) | The model hands over HTML and it renders as an interactive card in the conversation — clickable, keyboard-operable, fullscreen, exportable. |
-| [dsh-prompt-enhancer](https://github.com/MCJF28/dsh-prompt-enhancer) | One button next to the send key rewrites your draft into a better prompt. Three levels, follows the model you are chatting with. |
+| [dsh-prompt-enhancer](https://github.com/MCJF28/dsh-prompt-enhancer) | One button next to the send key rewrites your draft into a better prompt. Three levels; bundled free model channel, zero cost and zero setup, falls back automatically. |
 
 ## Install
 
